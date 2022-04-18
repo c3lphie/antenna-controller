@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/c3lphie/repositories/Antenna-controller/Antenna-controller.kicad_sch</source>
+    <date>Mon 21 Mar 2022 13:12:57 CET</date>
+    <tool>Eeschema (6.0.2)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Antenna-controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Power_Supply</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f93f4485-3b89-41e2-b12b-fbcd0b9fd7a6</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SPI_conn</value>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4969ff4a-6490-4de0-b443-13ef0bc8e284</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_DC</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc28f8de-3b73-48c3-b866-55205e3aa0cb</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BD138</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD138" description="1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>553b6daa-7a19-4d47-affc-07e8b0b3bbfa</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BD137</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD137" description="1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9ae2405-a05c-4c0b-b6ce-302e67e55553</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BD138</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD138" description="1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65b8869a-253a-452e-91ca-8904e1e67755</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BD137</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BD137" description="1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afde51d0-78d2-4f45-b1ec-81272bd23fa6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21ebefc3-08f5-4c06-8e0d-f74c6b373baa</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>745305e7-75f0-4cf1-9f7b-0b324473ea96</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ae7d65d-f06c-4a46-9a19-2a3e8c41baba</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbf9978e-27b2-41c3-bbb0-8f1715c589e0</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6d80a2e4-617a-4bc8-b13f-c3195f583107</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e83b1b13-14f1-4b78-9b8e-b2e0baaa50ba</tstamps>
+    </comp>
+    <comp ref="s-lite1">
+      <value>uStepper_s-lite</value>
+      <libsource lib="Generic" part="uStepper_s-lite" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>122477c2-4188-45a1-99cd-35320f27efc7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MCT6</value>
+      <footprint>Package_DIP:DIP-8_W10.16mm_LongPads</footprint>
+      <libsource lib="Isolator" part="MCT6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2128cd6a-874b-4c20-bf4b-b5c19d67d488</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>generic_imu</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical</footprint>
+      <libsource lib="Generic" part="generic_imu" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7ceb4fb-e7cc-4b4f-8f48-b50c896daf50</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ADG3300</value>
+      <footprint>ab2_tssop:AB2_TSSOP20</footprint>
+      <libsource lib="Logic_LevelTranslator" part="ADG3300" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Antenna-controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89020f39-a364-4bc2-a4ce-a0054403f183</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Generic" part="generic_imu">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">generic_imu</field>
+      </fields>
+      <pins>
+        <pin num="1" name="vcc" type="passive"/>
+        <pin num="2" name="gnd" type="passive"/>
+        <pin num="3" name="scl" type="passive"/>
+        <pin num="4" name="sda" type="passive"/>
+        <pin num="5" name="xda" type="passive"/>
+        <pin num="6" name="xdl" type="passive"/>
+        <pin num="7" name="ado" type="passive"/>
+        <pin num="8" name="int" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Generic" part="uStepper_s-lite">
+      <fields>
+        <field name="Reference">s-lite</field>
+        <field name="Value">uStepper_s-lite</field>
+      </fields>
+      <pins>
+        <pin num="" name="AUX2" type="passive"/>
+        <pin num="1" name="RST" type="passive"/>
+        <pin num="2" name="3.3V" type="passive"/>
+        <pin num="3" name="5V" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VIN" type="passive"/>
+        <pin num="7" name="VIN" type="passive"/>
+        <pin num="8" name="A0/MOSI1" type="passive"/>
+        <pin num="9" name="A1/MISO1" type="passive"/>
+        <pin num="10" name="A2/SCK1" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="A3/SDA0" type="passive"/>
+        <pin num="13" name="A4/SCL0" type="passive"/>
+        <pin num="14" name="D6/SCK0" type="passive"/>
+        <pin num="15" name="D5/MISO0/RX1" type="passive"/>
+        <pin num="16" name="D4/MOSI0/TX1" type="passive"/>
+        <pin num="17" name="D3/INT0" type="passive"/>
+        <pin num="18" name="D2/INT1" type="passive"/>
+        <pin num="19" name="D1/TX0" type="passive"/>
+        <pin num="20" name="D0/RX0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="MCT6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCT6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="C1" type="passive"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="A2" type="passive"/>
+        <pin num="5" name="E2" type="passive"/>
+        <pin num="6" name="C2" type="passive"/>
+        <pin num="7" name="C1" type="passive"/>
+        <pin num="8" name="E1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="ADG3300">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG3300</field>
+        <field name="Footprint">ab2_tssop:AB2_TSSOP20</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="Vcca" type="passive"/>
+        <pin num="3" name="A2" type="passive"/>
+        <pin num="4" name="A3" type="passive"/>
+        <pin num="5" name="A4" type="passive"/>
+        <pin num="6" name="A5" type="passive"/>
+        <pin num="7" name="A6" type="passive"/>
+        <pin num="8" name="A7" type="passive"/>
+        <pin num="9" name="A8" type="passive"/>
+        <pin num="10" name="EN" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="Y8" type="passive"/>
+        <pin num="13" name="Y7" type="passive"/>
+        <pin num="14" name="Y6" type="passive"/>
+        <pin num="15" name="Y5" type="passive"/>
+        <pin num="16" name="Y4" type="passive"/>
+        <pin num="17" name="Y3" type="passive"/>
+        <pin num="18" name="Y2" type="passive"/>
+        <pin num="19" name="Vccy" type="passive"/>
+        <pin num="20" name="Y1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD137">
+      <description>1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD137</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BD138">
+      <description>1.5A Ic, 60V Vce, Low Voltage Transistor, TO-126</description>
+      <docs>http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</docs>
+      <footprints>
+        <fp>TO?126*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BD138</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-126-3_Vertical</field>
+        <field name="Datasheet">http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Generic">
+      <uri>/home/c3lphie/.local/share/kicad/6.0/3rdparty/symbols/com_gitlab_franzee_kicad-addons_generic/Generic.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/home/c3lphie/repositories/kicad-symbols/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="vcc" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="Vcca" pintype="passive"/>
+      <node ref="s-lite1" pin="2" pinfunction="3.3V" pintype="passive"/>
+    </net>
+    <net code="2" name="+6V">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="C2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="C1" pintype="passive"/>
+    </net>
+    <net code="3" name="5V">
+      <node ref="U3" pin="10" pinfunction="EN" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="Vccy" pintype="passive"/>
+      <node ref="s-lite1" pin="3" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="C1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="gnd" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="s-lite1" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="s-lite1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="s-lite1" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="5" name="MISO_3.3V">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="6" name="MISO_5V">
+      <node ref="U3" pin="17" pinfunction="Y3" pintype="passive"/>
+      <node ref="s-lite1" pin="9" pinfunction="A1/MISO1" pintype="passive"/>
+    </net>
+    <net code="7" name="MOSI_3.3V">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="8" name="MOSI_5V">
+      <node ref="U3" pin="16" pinfunction="Y4" pintype="passive"/>
+      <node ref="s-lite1" pin="8" pinfunction="A0/MOSI1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="17" name="SCK_3.3V">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="18" name="SCK_5V">
+      <node ref="U3" pin="18" pinfunction="Y2" pintype="passive"/>
+      <node ref="s-lite1" pin="10" pinfunction="A2/SCK1" pintype="passive"/>
+    </net>
+    <net code="19" name="SS1_3.3V">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="20" name="SS1_5V">
+      <node ref="U3" pin="20" pinfunction="Y1" pintype="passive"/>
+      <node ref="s-lite1" pin="" pinfunction="AUX1/A5/SS1" pintype="passive"/>
+    </net>
+    <net code="21" name="forward">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="22" name="forward_input_3.3V">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="23" name="forward_input_5V">
+      <node ref="U3" pin="14" pinfunction="Y6" pintype="passive"/>
+      <node ref="s-lite1" pin="20" pinfunction="D0/RX0" pintype="passive"/>
+    </net>
+    <net code="24" name="imu_scl_3.3V">
+      <node ref="U2" pin="3" pinfunction="scl" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="A8" pintype="passive"/>
+    </net>
+    <net code="25" name="imu_scl_5V">
+      <node ref="U3" pin="12" pinfunction="Y8" pintype="passive"/>
+      <node ref="s-lite1" pin="13" pinfunction="A4/SCL0" pintype="passive"/>
+    </net>
+    <net code="26" name="imu_sda_3.3V">
+      <node ref="U2" pin="4" pinfunction="sda" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="A7" pintype="passive"/>
+    </net>
+    <net code="27" name="imu_sda_5V">
+      <node ref="U3" pin="13" pinfunction="Y7" pintype="passive"/>
+      <node ref="s-lite1" pin="12" pinfunction="A3/SDA0" pintype="passive"/>
+    </net>
+    <net code="28" name="rev">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="29" name="rev_input_3.3V">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="30" name="rev_input_5V">
+      <node ref="U3" pin="15" pinfunction="Y5" pintype="passive"/>
+      <node ref="s-lite1" pin="19" pinfunction="D1/TX0" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pinfunction="xda" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="xdl" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="ado" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="int" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(s-lite1-Pad)">
+      <node ref="s-lite1" pin="" pinfunction="AUX3" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(s-lite1-Pad)_1">
+      <node ref="s-lite1" pin="" pinfunction="AUX2" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(s-lite1-Pad1)">
+      <node ref="s-lite1" pin="1" pinfunction="RST" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(s-lite1-Pad6)">
+      <node ref="s-lite1" pin="6" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="39" name="unconnected-(s-lite1-Pad7)">
+      <node ref="s-lite1" pin="7" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(s-lite1-Pad14)">
+      <node ref="s-lite1" pin="14" pinfunction="D6/SCK0" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(s-lite1-Pad15)">
+      <node ref="s-lite1" pin="15" pinfunction="D5/MISO0/RX1" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(s-lite1-Pad16)">
+      <node ref="s-lite1" pin="16" pinfunction="D4/MOSI0/TX1" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(s-lite1-Pad17)">
+      <node ref="s-lite1" pin="17" pinfunction="D3/INT0" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(s-lite1-Pad18)">
+      <node ref="s-lite1" pin="18" pinfunction="D2/INT1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
